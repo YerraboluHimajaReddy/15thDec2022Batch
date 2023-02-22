@@ -12,7 +12,7 @@ public class FirstProgram {
 		this.driver = driver;
 	}
 	
-	public By userName_TextBox = By.xpath("//input[@name='username']");
+	public By userName_TextBox = By.cssSelector("input[name='username']");
 		
 	public By cancel_Button = By.xpath("//button[@type='button']");
 	
